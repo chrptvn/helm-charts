@@ -1,0 +1,25 @@
+replicaCount: 1
+
+image:
+  repository: chrptvn/assistant
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 8080
+
+env:
+  INSTRUCTIONS: Your role is to do nothing.
+  MODEL: gpt-4o-mini
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
+
+secret:
+  name: assistant-openai-api-key

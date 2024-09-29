@@ -1,0 +1,7 @@
+apiVersion: v2
+name: assistant
+description: AI Assistant
+
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
