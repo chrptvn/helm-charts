@@ -30,8 +30,15 @@ spec:
             - name: OPENAI_API_KEY
               valueFrom:
                 secretKeyRef:
-                  name: {{ .Values.secret.name }}
+                  name: 'assistant-openai-api-key'
                   key: OPENAI_API_KEY
+            {{- if .Values.secret.githubtoken }}
+            - name: GITHUB_TOKEN
+              valueFrom:
+                secretKeyRef:
+                  name: {{ .Values.secret.githubtoken }}
+                  key: GITHUB_TOKEN
+            {{- end }}
           readinessProbe:
             httpGet:
               path: /health

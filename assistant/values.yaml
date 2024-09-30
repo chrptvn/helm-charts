@@ -20,6 +20,3 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
-
-secret:
-  name: assistant-openai-api-key
