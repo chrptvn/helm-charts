@@ -3,12 +3,12 @@ entries:
   assistant:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-09-29T23:42:25.6880245-04:00"
+    created: "2024-09-30T13:16:30.0477684-04:00"
     description: AI Assistant
-    digest: 4de15f87a343a4d6c629a2344d0297ae8ec78b52933fe25880ad99221fee7fad
+    digest: dffdc77eb70eccc0593894914f4b10e5f49c3a9a7aba4799b761b95f6c17fdf5
     name: assistant
     type: application
     urls:
     - https://chrptvn.github.io/helm-charts/assistant-1.0.0.tgz
     version: 1.0.0
-generated: "2024-09-29T23:42:25.6874425-04:00"
+generated: "2024-09-30T13:16:30.0472365-04:00"
