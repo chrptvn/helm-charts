@@ -8,4 +8,5 @@ spec:
   resources:
     requests:
       storage: {{ .Values.persistence.size | quote }}
+  storageClassName: ""
   volumeName: invokeai-pv
