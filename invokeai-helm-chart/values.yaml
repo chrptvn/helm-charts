@@ -1,0 +1,16 @@
+
+replicaCount: 1
+
+image:
+  repository: ghcr.io/invoke-ai/invokeai
+  pullPolicy: IfNotPresent
+  tag: "latest"
+
+service:
+  type: ClusterIp
+  port: 9090
+
+resources: {}
+  
+persistence:
+  size: 10Gi

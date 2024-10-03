@@ -1,0 +1,6 @@
+
+apiVersion: v2
+name: invokeai
+description: A Helm chart for deploying InvokeAI
+version: 0.1.0
+appVersion: "5.0.0"
