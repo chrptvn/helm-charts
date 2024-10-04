@@ -14,3 +14,4 @@ resources: {}
   
 persistence:
   size: 10Gi
+  mountPath: ~/invokeai

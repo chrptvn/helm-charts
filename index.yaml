@@ -3,9 +3,9 @@ entries:
   assistant:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-02T22:47:37.5371038-04:00"
+    created: "2024-10-03T21:01:45.3115796-04:00"
     description: AI Assistant
-    digest: 86a8aabf78097a4b8f3e46e7a2f795f88b6c3e5f0155374c1879b65fefeba58a
+    digest: 73e0ee7f51842eec7c359d4a7ff7179bb287001ae1a8c476dd5fbf6589db32ca
     name: assistant
     type: application
     urls:
@@ -14,11 +14,11 @@ entries:
   invokeai:
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2024-10-02T22:47:37.5376083-04:00"
+    created: "2024-10-03T21:01:45.3120849-04:00"
     description: A Helm chart for deploying InvokeAI
-    digest: 37016ad9b59eaad56a37f1265e2e5cd86719500c8609e9237e4a4da915040cd4
+    digest: 995176c8cd1d6e56c86d00f41a73994ded30ff69bb247f6832aa48ba728b683b
     name: invokeai
     urls:
     - https://chrptvn.github.io/helm-charts/invokeai-0.1.0.tgz
     version: 0.1.0
-generated: "2024-10-02T22:47:37.5364046-04:00"
+generated: "2024-10-03T21:01:45.3095792-04:00"
