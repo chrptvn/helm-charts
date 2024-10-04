@@ -31,8 +31,10 @@ spec:
             {{- toYaml .Values.resources | nindent 12 }}
           env:
             {{- range $key, $value := .Values.env }}
-            - name: {{ $key }}
-              value: {{ $value | quote }}
+              {{- if $value }}
+              - name: {{ $key | quote }}
+                value: {{ $value | quote }}
+              {{- end }}
             {{- end }}
             - name: HUGGING_FACE_HUB_TOKEN
               valueFrom:
