@@ -11,6 +11,9 @@ service:
   port: 9090
 
 resources: {}
+
+env:
+  CUDA_VISIBLE_DEVICES: 0
   
 persistence:
   size: 10Gi
