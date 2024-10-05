@@ -12,9 +12,6 @@ service:
 
 resources: {}
 
-env:
-  CUDA_VISIBLE_DEVICES: 0
-  
 persistence:
   size: 10Gi
   mountPath: ~/invokeai
