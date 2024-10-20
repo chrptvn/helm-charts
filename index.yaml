@@ -3,9 +3,9 @@ entries:
   agentmanager:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-19T23:40:07.207173-04:00"
+    created: "2024-10-20T00:02:19.9874176-04:00"
     description: AI agentmanager
-    digest: f7983a9b87996d9d30520bb8d727cedc1c909d001a4c0ebe78bb3e8acda7e2b6
+    digest: 361a9701902a0532d92291f38dfb400ce8044bc32f6857bf6afffd8f7e748eca
     name: agentmanager
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   assistant:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-19T23:40:07.207173-04:00"
+    created: "2024-10-20T00:02:19.9884496-04:00"
     description: AI Assistant
-    digest: c9892e6859e9424d22212857b21bbc7ff1aedfc2c0e3c8f30d941289f51ca341
+    digest: 110173a3c4402790fc89b46b58c7213c30cddf304e7daffa1d95135f62d715ca
     name: assistant
     type: application
     urls:
@@ -25,11 +25,11 @@ entries:
   invokeai:
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2024-10-19T23:40:07.207723-04:00"
+    created: "2024-10-20T00:02:19.9889846-04:00"
     description: A Helm chart for deploying InvokeAI
-    digest: bb9b7bc6ef82bd3de58f776ad5f465fb07a1700c2ff2815b00508b3d1ed0524b
+    digest: f80560aed1d1b485efef767a8b42bcb5c2fb65ab7a78a33befc9fd257041f0b4
     name: invokeai
     urls:
     - https://chrptvn.github.io/helm-charts/invokeai-0.1.1.tgz
     version: 0.1.1
-generated: "2024-10-19T23:40:07.2066515-04:00"
+generated: "2024-10-20T00:02:19.9862568-04:00"

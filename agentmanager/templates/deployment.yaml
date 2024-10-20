@@ -30,7 +30,7 @@ spec:
             - name: OPENAI_API_KEY
               valueFrom:
                 secretKeyRef:
-                  name: 'agentmanager-openai-api-key'
+                  name: 'openai-api-key'
                   key: OPENAI_API_KEY
           readinessProbe:
             httpGet:
