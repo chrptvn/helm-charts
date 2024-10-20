@@ -32,11 +32,6 @@ spec:
                 secretKeyRef:
                   name: 'agentmanager-openai-api-key'
                   key: OPENAI_API_KEY
-            - name: GITHUB_TOKEN
-              valueFrom:
-                secretKeyRef:
-                  name: 'agents-armada-github-token'
-                  key: GITHUB_TOKEN
           readinessProbe:
             httpGet:
               path: /health
