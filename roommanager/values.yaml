@@ -1,0 +1,23 @@
+replicaCount: 1
+
+image:
+  repository: chrptvn/room-manager
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 8080
+
+env:
+  MONGO_USER: root
+  MONGO_HOST: mongodb.armada.svc.cluster.local
+  MONGO_PORT: 27017
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
