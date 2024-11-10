@@ -3,9 +3,9 @@ entries:
   agentmanager:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-27T19:03:13.4436358-04:00"
+    created: "2024-11-10T16:17:51.6709876-05:00"
     description: AI agentmanager
-    digest: e8e6786d01a393419c7e0e705b6f051c0ae75f3b29ad69d930554622c44db42a
+    digest: a906c06a7aab28be42d3fd1bf229639490e565ab3d4524c9300fa408adafd1aa
     name: agentmanager
     type: application
     urls:
@@ -14,7 +14,7 @@ entries:
   assistant:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-27T19:03:13.494732-04:00"
+    created: "2024-11-10T16:17:51.6709876-05:00"
     description: AI Assistant
     digest: 6f555ce905335f744bdef354fe37820028624bdd971135caea15f6955071e27c
     name: assistant
@@ -25,22 +25,33 @@ entries:
   invokeai:
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2024-10-27T19:03:13.494732-04:00"
+    created: "2024-11-10T16:17:51.6715082-05:00"
     description: A Helm chart for deploying InvokeAI
-    digest: 6623fdeb95fa11ec52ea111939adf4b52545ac4974c9e02814f444224b2b3288
+    digest: 973468b689ce34acc26b523ecc27502e78d72fdc0f417d1b73740e9c87d9654c
     name: invokeai
     urls:
     - https://chrptvn.github.io/helm-charts/invokeai-0.1.1.tgz
     version: 0.1.1
+  message-manager:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-11-10T16:17:51.6715082-05:00"
+    description: AI message-manager
+    digest: 2e8472c3fb37f45c961fbe079b5e0cd27b50b1f9feca512403838510ee80431b
+    name: message-manager
+    type: application
+    urls:
+    - https://chrptvn.github.io/helm-charts/message-manager-1.0.0.tgz
+    version: 1.0.0
   roommanager:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-10-27T19:03:13.4957305-04:00"
+    created: "2024-11-10T16:17:51.6722211-05:00"
     description: AI roommanager
-    digest: cab16fa5b37de203c0a983640c63c6124436b4ecf87ac8756a78af98ad85c221
+    digest: 688acdb8162ae67c6c6bb0ca77ebbf61dbf18e885e301aabc2d5afd640c43e49
     name: roommanager
     type: application
     urls:
     - https://chrptvn.github.io/helm-charts/roommanager-1.0.0.tgz
     version: 1.0.0
-generated: "2024-10-27T19:03:13.4427955-04:00"
+generated: "2024-11-10T16:17:51.6703746-05:00"

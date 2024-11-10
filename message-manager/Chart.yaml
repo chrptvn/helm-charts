@@ -1,0 +1,7 @@
+apiVersion: v2
+name: message-manager
+description: AI message-manager
+
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
