@@ -39,13 +39,13 @@ spec:
                   key: 'mongodb-root-password'
           readinessProbe:
             httpGet:
-              path: /health
+              path: /actuator/health
               port: {{ .Values.service.port }}
             initialDelaySeconds: 5
             periodSeconds: 10
           livenessProbe:
             httpGet:
-              path: /health
+              path: /actuator/health
               port: {{ .Values.service.port }}
             initialDelaySeconds: 15
             periodSeconds: 20

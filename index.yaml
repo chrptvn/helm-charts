@@ -3,9 +3,9 @@ entries:
   agent-ws-hub:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-11T13:45:44.3191121-05:00"
+    created: "2024-11-11T13:57:01.6032094-05:00"
     description: AI agent-ws-hub
-    digest: b5a295fc2cc98ebf549685cfb3104cbba15da6e5167901c06c61af79985da4e7
+    digest: ed47ed4c18b303c3b9e218a46ecb345f5f70c65b9f0816d1dd7bf3724886739e
     name: agent-ws-hub
     type: application
     urls:
@@ -14,9 +14,9 @@ entries:
   agentmanager:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-11T13:45:44.3197263-05:00"
+    created: "2024-11-11T13:57:01.6032094-05:00"
     description: AI agentmanager
-    digest: fe949de16870c9f8e665422fdcea5c64c3429b831cad9046d9c22d5bc4bc6936
+    digest: 5baee8bf2ab1639c2b63aa88a8439064d5fd043663c00097edbdfe58d19ec51b
     name: agentmanager
     type: application
     urls:
@@ -25,7 +25,7 @@ entries:
   assistant:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-11T13:45:44.3202937-05:00"
+    created: "2024-11-11T13:57:01.693459-05:00"
     description: AI Assistant
     digest: 6f555ce905335f744bdef354fe37820028624bdd971135caea15f6955071e27c
     name: assistant
@@ -36,9 +36,9 @@ entries:
   invokeai:
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2024-11-11T13:45:44.3202937-05:00"
+    created: "2024-11-11T13:57:01.6944599-05:00"
     description: A Helm chart for deploying InvokeAI
-    digest: db71f3fd16b61382a6755591a3e24c457bca1723c314595a935fcfcf10086a75
+    digest: 766c0f4760722f6a633c4c9caa1d53ed282ac61c6e599211bdcf84e26cd6bcaa
     name: invokeai
     urls:
     - https://chrptvn.github.io/helm-charts/invokeai-0.1.1.tgz
@@ -46,9 +46,9 @@ entries:
   message-manager:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-11T13:45:44.3207979-05:00"
+    created: "2024-11-11T13:57:01.6944599-05:00"
     description: AI message-manager
-    digest: d45c534122947b12858794ea09f61992b00619d5fe12319c6613215a6b6acf66
+    digest: 942e5a4001701057e338ae4fdbda22d1bb6d6f2d0b4b803a392e21614e912da8
     name: message-manager
     type: application
     urls:
@@ -57,12 +57,12 @@ entries:
   roommanager:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-11T13:45:44.3213889-05:00"
+    created: "2024-11-11T13:57:01.6954614-05:00"
     description: AI roommanager
-    digest: 111bf4317306c86c4f8a3ac63e77155ab2d126d2cbc4766924c3ab5f63963a7f
+    digest: 1b4cbf9353eca7f884e3a9920f34b61b6b2a93c132339d56b8e19d42994b5ea2
     name: roommanager
     type: application
     urls:
     - https://chrptvn.github.io/helm-charts/roommanager-1.0.0.tgz
     version: 1.0.0
-generated: "2024-11-11T13:45:44.3186077-05:00"
+generated: "2024-11-11T13:57:01.6025659-05:00"
