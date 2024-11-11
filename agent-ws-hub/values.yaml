@@ -1,0 +1,24 @@
+replicaCount: 1
+
+image:
+  repository: chrptvn/agent-ws-hub
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 8080
+
+env:
+  KAFKA_BOOTSTRAP_SERVERS: kafka-controller-0.kafka-controller-headless.armada.svc.cluster.local:9092
+  AGENT_MANAGER_URL: agentmanager-agentmanager.armada.svc.cluster.local:8080
+  ROOM_MANAGER_URL: roommanager-roommanager.armada.svc.cluster.local:8080
+  MESSAGE_MANAGER_URL: messagemanager-message-manager.armada.svc.cluster.local:8080
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}
