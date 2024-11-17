@@ -10,10 +10,10 @@ service:
   port: 8080
 
 env:
-  KAFKA_BOOTSTRAP_SERVERS: kafka-controller-0.kafka-controller-headless.armada.svc.cluster.local:9092
-  AGENT_MANAGER_URL: agentmanager-agentmanager.armada.svc.cluster.local:8080
-  ROOM_MANAGER_URL: roommanager-roommanager.armada.svc.cluster.local:8080
-  MESSAGE_MANAGER_URL: messagemanager-message-manager.armada.svc.cluster.local:8080
+  KAFKA_BOOTSTRAP_SERVERS: kafka-controller-0.kafka-controller-headless.armada.svc.cluster.local:9094
+  AGENT_MANAGER_URL: http://agentmanager-agentmanager.armada.svc.cluster.local:8080
+  ROOM_MANAGER_URL: http://roommanager-roommanager.armada.svc.cluster.local:8080
+  MESSAGE_MANAGER_URL: http://messagemanager-message-manager.armada.svc.cluster.local:8080
 
 resources: {}
 

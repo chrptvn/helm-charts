@@ -1,0 +1,18 @@
+replicaCount: 1
+
+image:
+  repository: chrptvn/agent-hq
+  tag: latest
+  pullPolicy: Always
+
+service:
+  type: ClusterIP
+  port: 8080
+
+resources: {}
+
+nodeSelector: {}
+
+tolerations: []
+
+affinity: {}

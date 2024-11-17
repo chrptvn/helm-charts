@@ -1,0 +1,7 @@
+apiVersion: v2
+name: agent-hq
+description: agent-hq
+
+type: application
+version: 1.0.0
+appVersion: "1.0.0"
