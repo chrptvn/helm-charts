@@ -2,7 +2,7 @@ replicaCount: 1
 
 image:
   repository: chrptvn/agent-service
-  tag: latest
+  tag: 1.0.0
   pullPolicy: Always
 
 service:
