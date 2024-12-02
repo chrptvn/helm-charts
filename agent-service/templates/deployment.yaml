@@ -1,18 +1,18 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: {{ include "assistant.fullname" . }}
+  name: {{ include "agent-service.fullname" . }}
   labels:
-    {{- include "assistant.labels" . | nindent 4 }}
+    {{- include "agent-service.labels" . | nindent 4 }}
 spec:
   replicas: {{ .Values.replicaCount }}
   selector:
     matchLabels:
-      {{- include "assistant.selectorLabels" . | nindent 6 }}
+      {{- include "agent-service.selectorLabels" . | nindent 6 }}
   template:
     metadata:
       labels:
-        {{- include "assistant.selectorLabels" . | nindent 8 }}
+        {{- include "agent-service.selectorLabels" . | nindent 8 }}
     spec:
       imagePullSecrets:
         - name: dockerhub-secret
@@ -27,16 +27,11 @@ spec:
             - name: {{ $key }}
               value: {{ $value | quote }}
             {{- end }}
-            - name: OPENAI_API_KEY
+            - name: MARIA_DB_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: 'assistant-openai-api-key'
-                  key: OPENAI_API_KEY
-            - name: GITHUB_TOKEN
-              valueFrom:
-                secretKeyRef:
-                  name: 'agents-armada-github-token'
-                  key: GITHUB_TOKEN
+                  name: 'mariadb'
+                  key: 'mariadb-root-password'
           readinessProbe:
             httpGet:
               path: /health

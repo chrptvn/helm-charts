@@ -1,79 +1,24 @@
 apiVersion: v1
 entries:
-  agent-hq:
+  agent-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-16T23:25:07.9529345-05:00"
-    description: agent-hq
-    digest: 011271a6f70b88b3152eece3deddf65ec33e15087492c24ee5758c10aa35ec15
-    name: agent-hq
+    created: "2024-12-01T19:47:08.0472471-05:00"
+    description: AI agent-service
+    digest: 04de69febe68bae8fab984635b49f203a9d3cd93f530a3e65d110c10f8ebfe03
+    name: agent-service
     type: application
     urls:
-    - https://chrptvn.github.io/helm-charts/agent-hq-1.0.0.tgz
-    version: 1.0.0
-  agent-ws-hub:
+    - https://chrptvn.github.io/helm-charts/agent-service-1.0.0-202412011947-SNAPSHOT.tgz
+    version: 1.0.0-202412011947-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-11-16T23:25:07.9529345-05:00"
-    description: AI agent-ws-hub
-    digest: 68c43c2422a97a3023cc0541f5c27a20b56e1dad2a26f079398d35ea7f2db7c9
-    name: agent-ws-hub
+    created: "2024-12-01T19:47:08.0471703-05:00"
+    description: AI agent-service
+    digest: abfdf94427148b07c7918f0dbd90debf1a82ef1ee2fb044e4d8c374b1fe3e142
+    name: agent-service
     type: application
     urls:
-    - https://chrptvn.github.io/helm-charts/agent-ws-hub-1.0.0.tgz
-    version: 1.0.0
-  agentmanager:
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2024-11-16T23:25:07.9537548-05:00"
-    description: AI agentmanager
-    digest: 38fc9c26cbd1640a78ba0330079ae0716223023cbbacd86b816bc7042df16c6a
-    name: agentmanager
-    type: application
-    urls:
-    - https://chrptvn.github.io/helm-charts/agentmanager-1.0.0.tgz
-    version: 1.0.0
-  assistant:
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2024-11-16T23:25:07.955408-05:00"
-    description: AI Assistant
-    digest: 6f555ce905335f744bdef354fe37820028624bdd971135caea15f6955071e27c
-    name: assistant
-    type: application
-    urls:
-    - https://chrptvn.github.io/helm-charts/assistant-1.0.0.tgz
-    version: 1.0.0
-  invokeai:
-  - apiVersion: v2
-    appVersion: 5.0.0
-    created: "2024-11-16T23:25:07.955923-05:00"
-    description: A Helm chart for deploying InvokeAI
-    digest: fe8cf10c8cc346fc512b653f8cdd901e9681adfab179ebaca1162654d5666556
-    name: invokeai
-    urls:
-    - https://chrptvn.github.io/helm-charts/invokeai-0.1.1.tgz
-    version: 0.1.1
-  message-manager:
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2024-11-16T23:25:07.9564592-05:00"
-    description: AI message-manager
-    digest: 5090a4b312c52c74a1d5ab0a21dc9bcd33b8a233c64d0a6efc6cd59c2b0c405a
-    name: message-manager
-    type: application
-    urls:
-    - https://chrptvn.github.io/helm-charts/message-manager-1.0.0.tgz
-    version: 1.0.0
-  roommanager:
-  - apiVersion: v2
-    appVersion: 1.0.0
-    created: "2024-11-16T23:25:07.9570187-05:00"
-    description: AI roommanager
-    digest: d29ac20a6250beaaf222a511901639258273c0b0db44a711e13533c7241d7950
-    name: roommanager
-    type: application
-    urls:
-    - https://chrptvn.github.io/helm-charts/roommanager-1.0.0.tgz
-    version: 1.0.0
-generated: "2024-11-16T23:25:07.9522883-05:00"
+    - https://chrptvn.github.io/helm-charts/agent-service-1.0.0-202412011945-SNAPSHOT.tgz
+    version: 1.0.0-202412011945-SNAPSHOT
+generated: "2024-12-01T19:47:08.0466504-05:00"

@@ -1,6 +1,6 @@
 apiVersion: v2
-name: roommanager
-description: AI roommanager
+name: agent-service
+description: AI agent-service
 
 type: application
 version: 1.0.0

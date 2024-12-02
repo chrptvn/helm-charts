@@ -1,7 +1,0 @@
-apiVersion: v2
-name: agentmanager
-description: AI agentmanager
-
-type: application
-version: 1.0.0
-appVersion: "1.0.0"
