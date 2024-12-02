@@ -3,12 +3,12 @@ entries:
   agent-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-12-01T21:17:28.9403225-05:00"
+    created: "2024-12-01T21:52:59.2815723-05:00"
     description: AI agent-service
-    digest: 62887777af377bc4f0de27dc3fde8a57c9c001942b74d48af3f6e7936cf5924a
+    digest: f298c0611336ef45ccacbe1d4b2170b5c16ca5b8ea0e26c3373daf953bcf455c
     name: agent-service
     type: application
     urls:
-    - https://chrptvn.github.io/helm-charts/agent-service-1.0.0-202412012117-SNAPSHOT.tgz
-    version: 1.0.0-202412012117-SNAPSHOT
-generated: "2024-12-01T21:17:28.9397931-05:00"
+    - https://chrptvn.github.io/helm-charts/agent-service-1.0.0-202412012152-SNAPSHOT.tgz
+    version: 1.0.0-202412012152-SNAPSHOT
+generated: "2024-12-01T21:52:59.2810503-05:00"
