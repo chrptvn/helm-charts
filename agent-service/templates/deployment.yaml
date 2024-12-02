@@ -32,6 +32,11 @@ spec:
                 secretKeyRef:
                   name: 'mariadb'
                   key: 'mariadb-root-password'
+            - name: CLIENT_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: 'client-secrets'
+                  key: 'agent-service'
           readinessProbe:
             httpGet:
               path: /health
