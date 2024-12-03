@@ -30,8 +30,8 @@ spec:
             - name: MARIA_DB_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: 'mariadb'
-                  key: 'mariadb-root-password'
+                  name: 'mariadb-user'
+                  key: 'mariadb-user-password'
             - name: CLIENT_SECRET
               valueFrom:
                 secretKeyRef:
