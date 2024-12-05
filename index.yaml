@@ -3,23 +3,23 @@ entries:
   agent-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-12-03T20:49:24.6527347-05:00"
+    created: "2024-12-04T22:33:28.5135466-05:00"
     description: AI agent-service
-    digest: 845962167e8441efed048feff196a5d1ff7e769a4d33cf8fec3998c3c93dcf6b
+    digest: 9c7f15435f6c13c2e39f13ac8afd287ad51ed67a149f202db08b214c32c91721
     name: agent-service
     type: application
     urls:
-    - https://chrptvn.github.io/helm-charts/agent-service-1.0.0-202412032049-SNAPSHOT.tgz
-    version: 1.0.0-202412032049-SNAPSHOT
+    - https://chrptvn.github.io/helm-charts/agent-service-1.0.0-202412042233-SNAPSHOT.tgz
+    version: 1.0.0-202412042233-SNAPSHOT
   room-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-12-03T20:49:24.6527347-05:00"
+    created: "2024-12-04T22:33:28.5142193-05:00"
     description: AI room-service
-    digest: db19491619c362778fafb9a62f1d5a36fc190180723c0d9268332750bba321a5
+    digest: 892552403d345df52e9f45d3eb082c1d8fd62893943c662b857f85f7206075c4
     name: room-service
     type: application
     urls:
-    - https://chrptvn.github.io/helm-charts/room-service-1.0.0-202412032049-SNAPSHOT.tgz
-    version: 1.0.0-202412032049-SNAPSHOT
-generated: "2024-12-03T20:49:24.6517339-05:00"
+    - https://chrptvn.github.io/helm-charts/room-service-1.0.0-202412042233-SNAPSHOT.tgz
+    version: 1.0.0-202412042233-SNAPSHOT
+generated: "2024-12-04T22:33:28.5129045-05:00"
