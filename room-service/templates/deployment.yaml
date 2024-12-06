@@ -32,11 +32,6 @@ spec:
                 secretKeyRef:
                   name: 'mariadb-user'
                   key: 'mariadb-user-password'
-            - name: CLIENT_SECRET
-              valueFrom:
-                secretKeyRef:
-                  name: 'client-secrets'
-                  key: 'room-service'
           readinessProbe:
             httpGet:
               path: /actuator/health
