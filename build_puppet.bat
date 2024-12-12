@@ -16,6 +16,7 @@ set timestamp=%datePart%%timePart%
 set version=%baseVersion%-%timestamp%-SNAPSHOT
 helm package ./agent-service --destination ./ --version %version%
 helm package ./room-service --destination ./ --version %version%
+helm package ./random-video-be --destination ./ --version %version%
 helm repo index . --url https://chrptvn.github.io/helm-charts/
 
 git add -A

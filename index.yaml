@@ -3,23 +3,34 @@ entries:
   agent-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-12-05T23:12:10.3445016-05:00"
+    created: "2024-12-12T14:10:34.1886436-05:00"
     description: AI agent-service
-    digest: a7c8a6acc5297edce5918ece458037a4d96704e5924688e4e677ad7e8053f25d
+    digest: 9c747ecb8a1102aeee4a32d442c1d2323a64d46698fc4cfb4f8999c044aa0a52
     name: agent-service
     type: application
     urls:
-    - https://chrptvn.github.io/helm-charts/agent-service-1.0.0-202412052312-SNAPSHOT.tgz
-    version: 1.0.0-202412052312-SNAPSHOT
+    - https://chrptvn.github.io/helm-charts/agent-service-1.0.0-202412121410-SNAPSHOT.tgz
+    version: 1.0.0-202412121410-SNAPSHOT
+  random-video-be:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2024-12-12T14:10:34.1891997-05:00"
+    description: AI random-video-be
+    digest: 5844e25c13763ea7588b16b9b1467c571bdd331f373ca1ada29c56f92f707326
+    name: random-video-be
+    type: application
+    urls:
+    - https://chrptvn.github.io/helm-charts/random-video-be-1.0.0-202412121410-SNAPSHOT.tgz
+    version: 1.0.0-202412121410-SNAPSHOT
   room-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-12-05T23:12:10.3451553-05:00"
+    created: "2024-12-12T14:10:34.1893732-05:00"
     description: AI room-service
-    digest: 5132e90114f5c9739e7fcaeb6018fce671b0ef633523a56fa696bcf15dd49c2f
+    digest: 7bb17575168f603a8c9476cd6ebcb85d30f2f0d1de0a6f1525d98aa07a457951
     name: room-service
     type: application
     urls:
-    - https://chrptvn.github.io/helm-charts/room-service-1.0.0-202412052312-SNAPSHOT.tgz
-    version: 1.0.0-202412052312-SNAPSHOT
-generated: "2024-12-05T23:12:10.3439695-05:00"
+    - https://chrptvn.github.io/helm-charts/room-service-1.0.0-202412121410-SNAPSHOT.tgz
+    version: 1.0.0-202412121410-SNAPSHOT
+generated: "2024-12-12T14:10:34.1875855-05:00"
