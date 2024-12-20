@@ -32,6 +32,11 @@ spec:
                 secretKeyRef:
                   name: 'mariadb-user'
                   key: 'mariadb-user-password'
+            - name: RECAPTCHA_SECRET
+              valueFrom:
+                secretKeyRef:
+                  name: 'recaptcha'
+                  key: 'private-key'
           readinessProbe:
             httpGet:
               path: /actuator/health
