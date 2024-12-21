@@ -18,6 +18,7 @@ helm package ./agent-service --destination ./ --version %version%
 helm package ./room-service --destination ./ --version %version%
 helm package ./random-video-be --destination ./ --version %version%
 helm package ./random-video-ui --destination ./ --version %version%
+helm package ./video-scraper --destination ./ --version %version%
 helm repo index . --url https://chrptvn.github.io/helm-charts/
 
 git add -A
