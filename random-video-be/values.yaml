@@ -9,6 +9,9 @@ service:
   type: ClusterIP
   port: 8080
 
+env:
+    MARIA_DB_HOST: equipment-adapter.production.svc.cluster.local:8080
+
 resources: {}
 
 nodeSelector: {}
