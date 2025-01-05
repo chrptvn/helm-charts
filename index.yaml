@@ -3,66 +3,77 @@ entries:
   agent-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-12-28T10:27:51.9852048-05:00"
+    created: "2025-01-05T16:57:20.7492258-05:00"
     description: AI agent-service
-    digest: 0b209803e07c4ed1fe006efc6186724d97eee59fdf6598bd8b5d46ad9e7fb1f5
+    digest: cc5cd52c6d6d9f9c7fcbee228232679f63a332190d62bab4cb10926ffcc14208
     name: agent-service
     type: application
     urls:
-    - https://chrptvn.github.io/helm-charts/agent-service-1.0.0-202412281027-SNAPSHOT.tgz
-    version: 1.0.0-202412281027-SNAPSHOT
+    - https://chrptvn.github.io/helm-charts/agent-service-1.0.0-202501051657-SNAPSHOT.tgz
+    version: 1.0.0-202501051657-SNAPSHOT
+  gymbro-be:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-01-05T16:57:20.7500034-05:00"
+    description: AI gymbro-be
+    digest: f3146396e9c3e8507df035ceeb617307a59967273fa59efc06e378e4b24fbf4d
+    name: gymbro-be
+    type: application
+    urls:
+    - https://chrptvn.github.io/helm-charts/gymbro-be-1.0.0-202501051657-SNAPSHOT.tgz
+    version: 1.0.0-202501051657-SNAPSHOT
   invokeai:
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2024-12-28T10:27:51.9857217-05:00"
+    created: "2025-01-05T16:57:20.7505061-05:00"
     description: A Helm chart for deploying InvokeAI
-    digest: ae68a4b225c1841ade252328a005eb7652c1beb2f3efb7d35fd970345118808d
+    digest: 42d73c0863ff00dccff36b747135baa571c3d3ce6a1cc36d583babacf3c346e8
     name: invokeai
     urls:
-    - https://chrptvn.github.io/helm-charts/invokeai-1.0.0-202412281027-SNAPSHOT.tgz
-    version: 1.0.0-202412281027-SNAPSHOT
+    - https://chrptvn.github.io/helm-charts/invokeai-1.0.0-202501051657-SNAPSHOT.tgz
+    version: 1.0.0-202501051657-SNAPSHOT
   random-video-be:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-12-28T10:27:51.9857217-05:00"
+    created: "2025-01-05T16:57:20.75104-05:00"
     description: AI random-video-be
-    digest: 471aa085f9df84744667c15de6063fbbdb32353b8f6cadbda070299bf9ef253c
+    digest: 076d2a982e017d199ed658c67af55696e2c8d26434e4405c03765ba23175f24d
     name: random-video-be
     type: application
     urls:
-    - https://chrptvn.github.io/helm-charts/random-video-be-1.0.0-202412281027-SNAPSHOT.tgz
-    version: 1.0.0-202412281027-SNAPSHOT
+    - https://chrptvn.github.io/helm-charts/random-video-be-1.0.0-202501051657-SNAPSHOT.tgz
+    version: 1.0.0-202501051657-SNAPSHOT
   random-video-ui:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-12-28T10:27:51.9863955-05:00"
+    created: "2025-01-05T16:57:20.75104-05:00"
     description: random-video-ui
-    digest: 1e1e87e3823804370b687415fdc8064dfbbcf49c2ea6fef29bb8fc382f29381d
+    digest: 415bdcd4c2ab7e1dabb88d667c82bdaa29d7463702af6ce50fc8040cf84ae916
     name: random-video-ui
     type: application
     urls:
-    - https://chrptvn.github.io/helm-charts/random-video-ui-1.0.0-202412281027-SNAPSHOT.tgz
-    version: 1.0.0-202412281027-SNAPSHOT
+    - https://chrptvn.github.io/helm-charts/random-video-ui-1.0.0-202501051657-SNAPSHOT.tgz
+    version: 1.0.0-202501051657-SNAPSHOT
   room-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-12-28T10:27:51.9863955-05:00"
+    created: "2025-01-05T16:57:20.7516804-05:00"
     description: AI room-service
-    digest: 2cf70cbe6cdb059341bdcaf0a93e5cb2747125cc67b20124672750be6c3429ee
+    digest: 52454dd3cf5ec4e6bf7f30cd6f549247b5a61e82af01066b340c15222ec11b1e
     name: room-service
     type: application
     urls:
-    - https://chrptvn.github.io/helm-charts/room-service-1.0.0-202412281027-SNAPSHOT.tgz
-    version: 1.0.0-202412281027-SNAPSHOT
+    - https://chrptvn.github.io/helm-charts/room-service-1.0.0-202501051657-SNAPSHOT.tgz
+    version: 1.0.0-202501051657-SNAPSHOT
   video-scraper:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2024-12-28T10:27:51.9868996-05:00"
+    created: "2025-01-05T16:57:20.7526973-05:00"
     description: video-scraper
-    digest: d89e19afebdf097259d17020030285fe91561cf651b26ac16538cd961007365c
+    digest: 9320cc06570b7c1f743109a2f3d89dfbbc5502221df6ff816262db15aba9680f
     name: video-scraper
     type: application
     urls:
-    - https://chrptvn.github.io/helm-charts/video-scraper-1.0.0-202412281027-SNAPSHOT.tgz
-    version: 1.0.0-202412281027-SNAPSHOT
-generated: "2024-12-28T10:27:51.9846908-05:00"
+    - https://chrptvn.github.io/helm-charts/video-scraper-1.0.0-202501051657-SNAPSHOT.tgz
+    version: 1.0.0-202501051657-SNAPSHOT
+generated: "2025-01-05T16:57:20.7486655-05:00"
