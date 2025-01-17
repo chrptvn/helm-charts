@@ -3,7 +3,7 @@ entries:
   agent-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-07T18:40:05.8471074-05:00"
+    created: "2025-01-16T20:49:52.7709431-05:00"
     description: AI agent-service
     digest: 23e41a8e5cd5b3e4559f4320c102a129cff45058aeedbf91bb17f29663ef9e15
     name: agent-service
@@ -14,7 +14,7 @@ entries:
   gymbro-be:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-07T18:40:05.8471074-05:00"
+    created: "2025-01-16T20:49:52.777678-05:00"
     description: AI gymbro-be
     digest: c593f31c9e31b8941d0e1ef8e8b3bd2792de87d145e1fe9b1ad692dd7b76d881
     name: gymbro-be
@@ -25,7 +25,7 @@ entries:
   image-servlet:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-07T18:40:05.8477433-05:00"
+    created: "2025-01-16T20:49:52.785834-05:00"
     description: AI image-servlet
     digest: 3bfff897f1f35b276c7317d79a295a6432fbb5fb516449b22310a37f2592c9d5
     name: image-servlet
@@ -36,17 +36,58 @@ entries:
   invokeai:
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2025-01-07T18:40:05.8477433-05:00"
+    created: "2025-01-16T20:49:52.7928003-05:00"
     description: A Helm chart for deploying InvokeAI
     digest: 11e5a5235e9ca293465e5d0e8992b2472a0c145c6047290a5d72bc7b7df40793
     name: invokeai
     urls:
     - https://chrptvn.github.io/helm-charts/invokeai-1.0.0-202501071839-SNAPSHOT.tgz
     version: 1.0.0-202501071839-SNAPSHOT
+  mariadb:
+  - annotations:
+      category: Database
+      images: |
+        - name: mariadb
+          image: docker.io/bitnami/mariadb:11.4.4-debian-12-r2
+        - name: mysqld-exporter
+          image: docker.io/bitnami/mysqld-exporter:0.16.0-debian-12-r3
+        - name: os-shell
+          image: docker.io/bitnami/os-shell:12-debian-12-r34
+      licenses: Apache-2.0
+    apiVersion: v2
+    appVersion: 11.4.4
+    created: "2025-01-16T20:49:52.797462-05:00"
+    dependencies:
+    - name: common
+      repository: oci://registry-1.docker.io/bitnamicharts
+      tags:
+      - bitnami-common
+      version: 2.x.x
+    description: MariaDB is an open source, community-developed SQL database server
+      that is widely in use around the world due to its enterprise features, flexibility,
+      and collaboration with leading tech firms.
+    digest: 0a1d138621de0335f5b3f0f798330cfc020215d5b21299531c9da72090c34e9d
+    home: https://bitnami.com
+    icon: https://bitnami.com/assets/stacks/mariadb/img/mariadb-stack-220x234.png
+    keywords:
+    - mariadb
+    - mysql
+    - database
+    - sql
+    - prometheus
+    maintainers:
+    - name: Broadcom, Inc. All Rights Reserved.
+      url: https://github.com/bitnami/charts
+    name: mariadb
+    sources:
+    - https://github.com/bitnami/charts/tree/main/bitnami/mariadb
+    urls:
+    - https://chrptvn.github.io/helm-charts/mariadb-20.2.1.tgz
+    version: 20.2.1
   random-video-be:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-07T18:40:05.8499383-05:00"
+    created: "2025-01-16T20:49:52.8042708-05:00"
     description: AI random-video-be
     digest: 3af4aab8c27672c4527d2b336c95d9a3bf248d9910222be960c00da34a80263b
     name: random-video-be
@@ -57,7 +98,7 @@ entries:
   random-video-ui:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-07T18:40:05.8499383-05:00"
+    created: "2025-01-16T20:49:52.810654-05:00"
     description: random-video-ui
     digest: d76163edc27a1efa589feb769c0ff774363b319a6f7da854f8fd89d83cd43123
     name: random-video-ui
@@ -68,7 +109,7 @@ entries:
   room-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-07T18:40:05.850441-05:00"
+    created: "2025-01-16T20:49:52.816105-05:00"
     description: AI room-service
     digest: d37a5548a75d51b555bd568425801bf75c1cd2c8c6e09484e3ef2905a27ed456
     name: room-service
@@ -79,7 +120,7 @@ entries:
   video-scraper:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-01-07T18:40:05.8509532-05:00"
+    created: "2025-01-16T20:49:52.8246291-05:00"
     description: video-scraper
     digest: 5bbb350b799498819e7f7d5e160c71459d4729f0c17e55eb8a689631c34f6c03
     name: video-scraper
@@ -87,4 +128,4 @@ entries:
     urls:
     - https://chrptvn.github.io/helm-charts/video-scraper-1.0.0-202501071839-SNAPSHOT.tgz
     version: 1.0.0-202501071839-SNAPSHOT
-generated: "2025-01-07T18:40:05.8464739-05:00"
+generated: "2025-01-16T20:49:52.7703187-05:00"
