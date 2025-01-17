@@ -1,5 +1,4 @@
 @echo off
-del *.tgz
 
 :: Define the base version
 set baseVersion=1.0.0
