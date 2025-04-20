@@ -3,7 +3,7 @@ entries:
   agent-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.5891508-05:00"
+    created: "2025-04-19T23:04:42.6415052-04:00"
     description: AI agent-service
     digest: 933775e44977939c41307a27396de64bb230f77cc73c9c2774184423e63b6879
     name: agent-service
@@ -13,7 +13,7 @@ entries:
     version: 1.0.0-202501272253-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.5885919-05:00"
+    created: "2025-04-19T23:04:42.6415052-04:00"
     description: AI agent-service
     digest: e6233baf7d1f14b9a14dc04ffed0d45ac35effa11288855ae247e40ac159067a
     name: agent-service
@@ -23,7 +23,7 @@ entries:
     version: 1.0.0-202501241225-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.5885404-05:00"
+    created: "2025-04-19T23:04:42.6409299-04:00"
     description: AI agent-service
     digest: 23e41a8e5cd5b3e4559f4320c102a129cff45058aeedbf91bb17f29663ef9e15
     name: agent-service
@@ -34,9 +34,9 @@ entries:
   gymbro-be:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.5906945-05:00"
+    created: "2025-04-19T23:04:42.6425703-04:00"
     description: AI gymbro-be
-    digest: 154862e5ff7a923ceb7f844c658c83c997b0c480f68e8491629432fadff6a410
+    digest: f46a79271cfadc6573ae083ed9007d1c77475d2ef76a5bec41249a1a9dd64a73
     name: gymbro-be
     type: application
     urls:
@@ -44,7 +44,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.5898804-05:00"
+    created: "2025-04-19T23:04:42.6425703-04:00"
     description: AI gymbro-be
     digest: 7d5f39ce7ea10030b97abaa8799713982f8ce949e8ce053dc0d36ce53edf24cc
     name: gymbro-be
@@ -54,7 +54,7 @@ entries:
     version: 1.0.0-202501272253-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.5898804-05:00"
+    created: "2025-04-19T23:04:42.6420669-04:00"
     description: AI gymbro-be
     digest: cb53edcc9116e5bc8a31c151c4a9029166b303ad7f79c5bb63e5ea1cd4fd1b77
     name: gymbro-be
@@ -64,7 +64,7 @@ entries:
     version: 1.0.0-202501241225-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.5892942-05:00"
+    created: "2025-04-19T23:04:42.6420669-04:00"
     description: AI gymbro-be
     digest: c593f31c9e31b8941d0e1ef8e8b3bd2792de87d145e1fe9b1ad692dd7b76d881
     name: gymbro-be
@@ -75,9 +75,9 @@ entries:
   gymbro-ui:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.5914211-05:00"
+    created: "2025-04-19T23:04:42.64315-04:00"
     description: gymbro-ui
-    digest: a49b8a841674b89eb5818316986cc9bb349dce396efb9595d2a87315e2fc5eff
+    digest: 30a560f14bbde0c7bb412435c025107d4a6062bfd03156f646bf641641c35569
     name: gymbro-ui
     type: application
     urls:
@@ -85,7 +85,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.5906945-05:00"
+    created: "2025-04-19T23:04:42.64315-04:00"
     description: gymbro-ui
     digest: 818bd0b90697bd8983899f5b18656d4810a979cfddaa61cb6cbef9975252c3b3
     name: gymbro-ui
@@ -96,9 +96,9 @@ entries:
   image-servlet:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.5930272-05:00"
+    created: "2025-04-19T23:04:42.6442145-04:00"
     description: AI image-servlet
-    digest: 1c66a97b72976abba91fce10c5bf1495763b1ad284b6237199704145ad8892c4
+    digest: e6cf09285a50ca53aa51e8ba1779ea1d3242bf49f41faf179fa82ff37c338f58
     name: image-servlet
     type: application
     urls:
@@ -106,7 +106,7 @@ entries:
     version: 1.0.0
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.5930272-05:00"
+    created: "2025-04-19T23:04:42.6437113-04:00"
     description: AI image-servlet
     digest: a016b70e224b751e4e2c5be2532476bca6bc676583858f9b712b68d484e30ce5
     name: image-servlet
@@ -116,7 +116,7 @@ entries:
     version: 1.0.0-202501272253-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.592523-05:00"
+    created: "2025-04-19T23:04:42.6437113-04:00"
     description: AI image-servlet
     digest: ef38392e569da0fd7393f7952e009d832e1e68c6f7c817dc766a3997ce9eaeea
     name: image-servlet
@@ -126,7 +126,7 @@ entries:
     version: 1.0.0-202501241225-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.5919259-05:00"
+    created: "2025-04-19T23:04:42.6436529-04:00"
     description: AI image-servlet
     digest: 3bfff897f1f35b276c7317d79a295a6432fbb5fb516449b22310a37f2592c9d5
     name: image-servlet
@@ -137,7 +137,7 @@ entries:
   invokeai:
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2025-02-02T19:51:44.6057573-05:00"
+    created: "2025-04-19T23:04:42.6447293-04:00"
     description: A Helm chart for deploying InvokeAI
     digest: 9d52dac977c5df2964053cd4911628c7e64f0b31e67a4f29673080c1c8260084
     name: invokeai
@@ -146,7 +146,7 @@ entries:
     version: 1.0.0-202501272253-SNAPSHOT
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2025-02-02T19:51:44.599375-05:00"
+    created: "2025-04-19T23:04:42.6447293-04:00"
     description: A Helm chart for deploying InvokeAI
     digest: a07462b0b033e65b923e02001e554fb53ee8ee6795d3ffd012b334d25acc81ed
     name: invokeai
@@ -155,7 +155,7 @@ entries:
     version: 1.0.0-202501241225-SNAPSHOT
   - apiVersion: v2
     appVersion: 5.0.0
-    created: "2025-02-02T19:51:44.5935586-05:00"
+    created: "2025-04-19T23:04:42.6442145-04:00"
     description: A Helm chart for deploying InvokeAI
     digest: 11e5a5235e9ca293465e5d0e8992b2472a0c145c6047290a5d72bc7b7df40793
     name: invokeai
@@ -175,7 +175,7 @@ entries:
       licenses: Apache-2.0
     apiVersion: v2
     appVersion: 11.4.4
-    created: "2025-02-02T19:51:44.6189931-05:00"
+    created: "2025-04-19T23:04:42.6483271-04:00"
     dependencies:
     - name: common
       repository: oci://registry-1.docker.io/bitnamicharts
@@ -206,7 +206,7 @@ entries:
   random-video-be:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.6448574-05:00"
+    created: "2025-04-19T23:04:42.6493273-04:00"
     description: AI random-video-be
     digest: 893a25065d8bb0310d031d39fb620af47923354208c0a29ecad028b5cff3058e
     name: random-video-be
@@ -216,7 +216,7 @@ entries:
     version: 1.0.0-202501272253-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.6335196-05:00"
+    created: "2025-04-19T23:04:42.6493273-04:00"
     description: AI random-video-be
     digest: 2ea9b338be43f3943d6dc1a7ddaa2feed9d3b1061b5678bb4111b04788e3881e
     name: random-video-be
@@ -226,7 +226,7 @@ entries:
     version: 1.0.0-202501241225-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.6259986-05:00"
+    created: "2025-04-19T23:04:42.6493273-04:00"
     description: AI random-video-be
     digest: 3af4aab8c27672c4527d2b336c95d9a3bf248d9910222be960c00da34a80263b
     name: random-video-be
@@ -237,7 +237,7 @@ entries:
   random-video-ui:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.664222-05:00"
+    created: "2025-04-19T23:04:42.650327-04:00"
     description: random-video-ui
     digest: 47c608cfef674d3aac5e5729c913bfa58916c936ce2181e5ca687686413d711a
     name: random-video-ui
@@ -247,7 +247,7 @@ entries:
     version: 1.0.0-202501272253-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.6579908-05:00"
+    created: "2025-04-19T23:04:42.650327-04:00"
     description: random-video-ui
     digest: bcd60eb4e18c81c57480a2cfd39653f4da51398dfdaeb883ddeda941b12da752
     name: random-video-ui
@@ -257,7 +257,7 @@ entries:
     version: 1.0.0-202501241225-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.6517786-05:00"
+    created: "2025-04-19T23:04:42.6493273-04:00"
     description: random-video-ui
     digest: d76163edc27a1efa589feb769c0ff774363b319a6f7da854f8fd89d83cd43123
     name: random-video-ui
@@ -268,7 +268,7 @@ entries:
   room-service:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.6806769-05:00"
+    created: "2025-04-19T23:04:42.6513519-04:00"
     description: AI room-service
     digest: 8d5c98eb49fdc2ecff5ff6a89530a430fe9280afb6ef8b7fd7cd4b9ac966c27b
     name: room-service
@@ -278,7 +278,7 @@ entries:
     version: 1.0.0-202501272253-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.6756277-05:00"
+    created: "2025-04-19T23:04:42.650327-04:00"
     description: AI room-service
     digest: 7e9899519c64d6176b1eb3f31d5289db37870aaa8e0c40bbc53658016c3a7144
     name: room-service
@@ -288,7 +288,7 @@ entries:
     version: 1.0.0-202501241225-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.6699922-05:00"
+    created: "2025-04-19T23:04:42.650327-04:00"
     description: AI room-service
     digest: d37a5548a75d51b555bd568425801bf75c1cd2c8c6e09484e3ef2905a27ed456
     name: room-service
@@ -296,10 +296,21 @@ entries:
     urls:
     - https://chrptvn.github.io/helm-charts/room-service-1.0.0-202501071839-SNAPSHOT.tgz
     version: 1.0.0-202501071839-SNAPSHOT
+  socialapi:
+  - apiVersion: v2
+    appVersion: 1.0.0
+    created: "2025-04-19T23:04:42.6513519-04:00"
+    description: AI socialapi
+    digest: 9e429096b5aefbeb66ff6e1980ce77df32391c50c190db83fe057ec961f569f2
+    name: socialapi
+    type: application
+    urls:
+    - https://chrptvn.github.io/helm-charts/socialapi-1.0.0.tgz
+    version: 1.0.0
   video-scraper:
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.6979775-05:00"
+    created: "2025-04-19T23:04:42.6523516-04:00"
     description: video-scraper
     digest: 4c2535c3afd32f7042e649da1b921d3906ea0337a106a24d06016fbd0ef8ff63
     name: video-scraper
@@ -309,7 +320,7 @@ entries:
     version: 1.0.0-202501272253-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.6923022-05:00"
+    created: "2025-04-19T23:04:42.6513519-04:00"
     description: video-scraper
     digest: 29581818057026a7438d98fc2d7bbd8b21f0d7dfaa25a85b0ab94115a26f0100
     name: video-scraper
@@ -319,7 +330,7 @@ entries:
     version: 1.0.0-202501241225-SNAPSHOT
   - apiVersion: v2
     appVersion: 1.0.0
-    created: "2025-02-02T19:51:44.6868609-05:00"
+    created: "2025-04-19T23:04:42.6513519-04:00"
     description: video-scraper
     digest: 5bbb350b799498819e7f7d5e160c71459d4729f0c17e55eb8a689631c34f6c03
     name: video-scraper
@@ -327,4 +338,4 @@ entries:
     urls:
     - https://chrptvn.github.io/helm-charts/video-scraper-1.0.0-202501071839-SNAPSHOT.tgz
     version: 1.0.0-202501071839-SNAPSHOT
-generated: "2025-02-02T19:51:44.587945-05:00"
+generated: "2025-04-19T23:04:42.6403165-04:00"
